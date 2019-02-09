@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTut1", "ClassTut1\Clas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTut2", "ClassTut2\ClassTut2.csproj", "{DD3DBDE3-21FB-475C-922F-A6A09C146E97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arraymethod", "Arraymethod\Arraymethod.csproj", "{76AFB08E-C768-4BF0-A76F-9FA2B315C448}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{DD3DBDE3-21FB-475C-922F-A6A09C146E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3DBDE3-21FB-475C-922F-A6A09C146E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3DBDE3-21FB-475C-922F-A6A09C146E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AFB08E-C768-4BF0-A76F-9FA2B315C448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AFB08E-C768-4BF0-A76F-9FA2B315C448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AFB08E-C768-4BF0-A76F-9FA2B315C448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AFB08E-C768-4BF0-A76F-9FA2B315C448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
