@@ -101,6 +101,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{E5BAC39A-6219-4401-94FA-A74A7A062991}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{58BBBBE4-2228-4247-819D-C7F3378C49AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq1", "Linq1\Linq1.csproj", "{CF7BA33E-FE7F-4671-B42F-B06B043C691F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +307,14 @@ Global
 		{E5BAC39A-6219-4401-94FA-A74A7A062991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5BAC39A-6219-4401-94FA-A74A7A062991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5BAC39A-6219-4401-94FA-A74A7A062991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BBBBE4-2228-4247-819D-C7F3378C49AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BBBBE4-2228-4247-819D-C7F3378C49AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BBBBE4-2228-4247-819D-C7F3378C49AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BBBBE4-2228-4247-819D-C7F3378C49AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7BA33E-FE7F-4671-B42F-B06B043C691F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7BA33E-FE7F-4671-B42F-B06B043C691F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7BA33E-FE7F-4671-B42F-B06B043C691F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7BA33E-FE7F-4671-B42F-B06B043C691F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
