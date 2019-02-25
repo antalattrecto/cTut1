@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace Lists3
@@ -93,27 +91,6 @@ namespace Lists3
                 Console.WriteLine(customer);
             }
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             Console.ReadLine();
         }
     }
