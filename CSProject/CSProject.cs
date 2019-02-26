@@ -157,7 +157,7 @@ namespace CSProject
         }
     }
 
-    class Admin : Staff
+    public class Admin : Staff
     {
         private const float overtimeRate = 15.5f;
         private const float adminHourlyRate = 30f;

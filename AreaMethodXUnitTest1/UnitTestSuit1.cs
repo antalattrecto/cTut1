@@ -70,8 +70,8 @@ namespace AreaMethodXUnitTest
         public void StaffCalculatePay()
         {
             Staff obj = new Staff("John", 20);
-            obj.HoursWorked = 500; 
-           
+            obj.HoursWorked = 500;
+
             obj.CalculatePay();
 
             Assert.Equal(10000, obj.TotalPay);
@@ -86,7 +86,7 @@ namespace AreaMethodXUnitTest
             Assert.Equal(0, obj.Allowance);
 
             obj.HoursWorked = 159;
-           
+
             obj.CalculatePay();
 
             Assert.Equal(obj.TotalPay, obj.BasicPay);
@@ -109,6 +109,37 @@ namespace AreaMethodXUnitTest
 
 
         }
+
+
+        [Fact]
+
+        public void AdminCalculatePay()
+        {
+            Admin obj = new Admin("John");
+
+            obj.HoursWorked = 159;
+
+            obj.CalculatePay();
+
+            Assert.Equal(obj.TotalPay, obj.BasicPay);
+
+
+        }
+
+        [Fact]
+        public void AdminCalculatePayOver160()
+        {
+            Admin obj = new Admin("John");
+
+            obj.HoursWorked = 161;
+
+            obj.CalculatePay();
+
+            Assert.NotEqual(obj.TotalPay, obj.BasicPay);
+
+
+        }
+
     }
 
 }
