@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AreaMethod\AreaMethod.csproj" />
+    <ProjectReference Include="..\CSProject\CSProject.csproj" />
   </ItemGroup>
 
 </Project>
